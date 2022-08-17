@@ -1,0 +1,60 @@
+.container{
+    margin:0px 30px;
+}
+
+.info-container{
+    animation : move_up 1.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.left-info-container{
+    flex:1;
+}
+
+.right-info-container{
+    flex:1;
+}
+
+.name-h1{
+    margin: 0px;
+    display: flex;
+    color:#8892b0;
+}
+
+.brief{
+    padding-top:20px;
+    display: flex;
+    line-height: 40px;
+    font-size: 20px;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+
+.social-icon{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.devloper-image{
+    width:100%;
+}
+
+.footer{
+    margin:20px 0px 20px 0px;
+    font-size: x-small;
+    color:#64ffda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

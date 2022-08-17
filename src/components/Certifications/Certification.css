@@ -1,0 +1,51 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+  margin: 40px 0px;
+}
+
+.gridContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.grid-item {
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background-color: #ccd6f6;
+  background-color: #040e1f;
+  box-shadow: #8892b0;
+  border-radius: 5px;
+}
+
+.cardItemOne {
+}
+
+.cardItemTwo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.courseName {
+  margin-top: 10px;
+  color: #64ffda;
+}
+
+.certificationImage {
+  width: 150px;
+}
+
+.certificationLink {
+  cursor: pointer;
+  text-decoration: none;
+}

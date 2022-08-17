@@ -1,0 +1,64 @@
+.experienceContainer{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    gap:40px;
+}
+
+.experienceLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftNavOption{
+    padding:10px 20px;
+    color:#8892b0;
+    cursor: pointer;
+    border-left:2px solid #8892b0;
+}
+
+.leftNavOption:hover{
+  color: #64ffda;
+}
+
+.selectedOption{
+    border-left:2px solid #64ffda;
+    background-color:#203850 ;
+    color: #64ffda;
+}
+
+.experienceRight{
+    color:#8892b0;
+}
+
+.experienceHeading{
+    font-size: xx-large;
+    color:white;
+    margin:30px 0px 20px 00px;
+}
+
+.role{
+    color: #64ffda;
+    margin-bottom: 8px;
+}
+
+.duration_location{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.description{
+    margin:5px 0px;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    padding:0;
+    margin:20px;
+}
+
+li:before {
+    content: "• ";
+    color: #64ffda;
+}
