@@ -38,17 +38,14 @@ const certifications=[
 export default function Certification(){
     return (
         <>
+            <div id='certificationContainer' className='certificationContainer'>
             <div id='certificationHeading' className='heading'>Certifications</div>
             <div className='gridContainer'>
                 {certifications.map(card=>
                     <Card card={card}></Card>
                 )}
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-
+            </div>
         </>
     )
 }

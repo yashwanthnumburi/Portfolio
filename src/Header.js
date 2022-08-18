@@ -5,8 +5,9 @@ import pdf from './assets/yashwanth_numburi.pdf';
 function Links(props){
     return (
         <>
-            <a onClick={()=>props.scrollTo('experienceHeading')} className={props.className} to="/experience">Experience</a>
-            <a onClick={()=>props.scrollTo('certificationHeading')} className={props.className} to="/certifications">Certifications</a>
+            <a onClick={()=>props.scrollTo('navigateToExperience')} className={props.className} to="/experience">Experience</a>
+            <a onClick={()=>props.scrollTo('certificationContainer')} className={props.className} to="/certifications">Certifications</a>
+            <a onClick={()=>props.scrollTo('navigateToSkills')} className={props.className} to="/contact">Skills</a>
             <a onClick={()=>props.scrollTo('experienceHeading')} className={props.className} to="/contact">Contact</a>
             <a href={pdf} target="_blank" className='resume'>Resume</a>
         </>

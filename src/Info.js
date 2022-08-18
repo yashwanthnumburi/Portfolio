@@ -4,6 +4,7 @@ import git from './assets/git.png';
 import linkedin from './assets/linkedin.png';
 import developer from './assets/developer.jpg';
 import stackoverflow from './assets/stackoverflow.png';
+import codepen from './assets/codepen.jpg';
 import Experience from './components/Experience/Experience';
 import Certification from './components/Certifications/Certification';
 import Skills from './components/Skills/Skills';
@@ -12,7 +13,8 @@ import Contact from './components/Contact/Contact';
 const URLS={
     'linkedin':'https://www.linkedin.com/in/yashwanth-numburi/',
     'git':'https://github.com/yashwanthnumburi',
-    'stackoverflow':'https://stackoverflow.com/users/13519176/yashwanth-numburi'
+    'stackoverflow':'https://stackoverflow.com/users/13519176/yashwanth-numburi',
+    'codepen':'https://codepen.io/Yash__'
 }
 
 export default function Info(){
@@ -35,6 +37,7 @@ export default function Info(){
                    <a onClick={()=>openNewWindow(URLS['linkedin'])}><img className='social-icon' src={linkedin}></img></a>
                    <a onClick={()=>openNewWindow(URLS['git'])}><img className='social-icon' src={git}></img></a>
                    <a onClick={()=>openNewWindow(URLS['stackoverflow'])}><img className='social-icon' src={stackoverflow}></img></a>
+                   <a onClick={()=>openNewWindow(URLS['codepen'])}><img className='social-icon' src={codepen}></img></a>
                 </div>
             </div>
             <div className='right-info-container'>

@@ -1,24 +1,35 @@
+.navigateToSkills{
+  width:100%;
+  padding-top:50px;
+}
+
 .skillHeading {
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: xx-large;
-  margin: 20px 0px;
+  margin:20px 0px;
 }
 
 .skillContainer {
   background-color: #040e1f;
-  margin: 0px 0px 20px 0px;
+  padding:50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  /* gap: 50px; */
+  gap:90px;
+  justify-content: space-evenly;
 }
 
 .skill {
-  margin:30px 50px 30px 50px;
-  width: 100px;
-  height: 100px;
+  width:75px;
+  height: 75px;
+}
+
+@media screen and (max-width:700px){
+   .skill{
+     width:50px;
+     height: 50px;
+   }
 }

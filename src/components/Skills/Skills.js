@@ -18,27 +18,28 @@ import Eslint from '../../assets/eslint.png';
 export default function Skills() {
     return (
         <>
-            <div className='skillHeading'>Skills</div>
-            <div className='skillContainer'>
-                <img className='skill' src={React}></img>
-                <img className='skill' src={Html}></img>
-                <img className='skill' src={CSS}></img>
-                <img className='skill' src={Redux}></img>
-                <img className='skill' src={Js}></img>
-                <img className='skill' src={TypeScript}></img>
-                <img className='skill' src={Express}></img>
-                <img className='skill' src={Node}></img>
-                <img className='skill' src={Angular}></img>
-                <img className='skill' src={MongoDB}></img>
-                <img className='skill' src={SQL}></img>
-                <img className='skill' src={GIT}></img>
-                <img className='skill' src={Webpack}></img>
-                <img className='skill' src={Eslint}></img>
-                
-
+            <div id='navigateToSkills' className='navigateToSkills'>
+                <div className='skillHeading'>Skills</div>
+                <div className='skillContainer'>
+                    <img className='skill' id='sample' src={React}></img>
+                    <img className='skill' src={Html}></img>
+                    <img className='skill' src={CSS}></img>
+                    <img className='skill' src={Redux}></img>
+                    <img className='skill' src={Js}></img>
+                    <img className='skill' src={TypeScript}></img>
+                    <img className='skill' src={Express}></img>
+                    <img className='skill' src={Node}></img>
+                    <img className='skill' src={Angular}></img>
+                    <img className='skill' src={MongoDB}></img>
+                    <img className='skill' src={SQL}></img>
+                    <img className='skill' src={GIT}></img>
+                    <img className='skill' src={Webpack}></img>
+                    <img className='skill' src={Eslint}></img>
+                </div>
             </div>
         </>
     )
 }
 
 //Find icons such that there is no background image expect letters
+//use map and return images

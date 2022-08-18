@@ -11,13 +11,7 @@ export default function Experience(){
     };
 
     return <>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <div id='navigateToExperience' className='navigateToExperience'>
         <div id='experienceHeading' className='experienceHeading'>Experience</div>
         <div className='experienceContainer'>
             <div className='experienceLeft'>
@@ -28,6 +22,7 @@ export default function Experience(){
                 <ExperienceInfo company={company}></ExperienceInfo>
             </div>
         </div>  
+        </div>
     </>
 }
 

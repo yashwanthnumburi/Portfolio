@@ -8,16 +8,16 @@ import Experience from './components/Experience/Experience';
 
 function App() {
   return (
-    <BrowserRouter>
     <div className="App">
       <Header></Header>
       {/* Later remove the br tag and added proper spacing */}
       <br/>
       <br/>
-    <Info/>
+      <Info/>
      </div>
-     </BrowserRouter>
   );
 }
 
 export default App;
+
+//On refresh I can see the scroll bar is going down, not at the top.
