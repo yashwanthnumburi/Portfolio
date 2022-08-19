@@ -23,11 +23,11 @@ export default function Contact() {
 
     return (
         <>
-            <div className='contactContainer'>
+            <div id='contactContainer' className='contactContainer'>
                 <div className='contactHeading'>Get in Touch</div>
                 <div className='contactContent'>
-                    I am intrested in developing applications to solve problems so if you have any ideas or If you are intrested to hire me you
-                can reach out to me via
+                    I am interested in developing applications to solve problems so if you have any ideas or If you are intrested to hire me you
+                    can reach out to me via
                 </div>
                 <div className='contactContent'><a href={linkedinUrl} className='contactLink' target="_blank">Linkedin</a></div>
                 <div className='contactContent'>

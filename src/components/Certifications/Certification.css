@@ -1,5 +1,5 @@
-.certificationContainer{
-  width:100%;
+.certificationContainer {
+  width: 100%;
   /* height:100vh; */
 }
 
@@ -9,14 +9,14 @@
   justify-content: center;
   color: white;
   font-size: xx-large;
-  padding: 50px 0px;
+  padding: 60px 0px;
 }
 
 .gridContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -27,7 +27,7 @@
   background-color: #040e1f;
   box-shadow: #8892b0;
   border-radius: 5px;
-  margin:20px;
+  margin: 20px;
 }
 
 .cardItemOne {
@@ -38,15 +38,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 2px;
+}
+
+.courseNameWrapper {
+  position: relative;
 }
 
 .courseName {
+  text-align: center;
   margin-top: 10px;
   color: #64ffda;
 }
 
 .certificationImage {
   width: 150px;
+  height: 150px;
 }
 
 .certificationLink {
@@ -54,17 +61,29 @@
   text-decoration: none;
 }
 
-@media screen and (max-width:700px){
-    .card{
-      width:100px;
-    }
-    .certificationImage {
-      width: 100px;
-    }
-    .cardItemTwo{
-      height:80px;
-    }
-    .courseName{
-      font-size: small;
-    }
+.card:hover {
+}
+
+.textOverflow {
+  position: relative;
+  width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 100px;
+  }
+  .certificationImage {
+    width: 100px;
+  }
+  .cardItemTwo {
+    height: 80px;
+  }
+  .courseName {
+    margin: 10px;
+    font-size: small;
+  }
 }
