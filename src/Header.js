@@ -7,7 +7,7 @@ function Links(props) {
             <a onClick={() => props.scrollTo('certificationContainer')} className={props.className} to="/certifications">Certifications</a>
             <a onClick={() => props.scrollTo('navigateToSkills')} className={props.className} to="/contact">Skills</a>
             <a onClick={() => props.scrollTo('contactContainer')} className={props.className} to="/contact">Contact</a>
-            <a href='https://drive.google.com/file/d/1eg0JLpH-8cfAFQNiYlYomz91tdLWZty_/view?usp=sharing' target="_blank" className={props.resume ? 'resumeSm' : 'resume'}>Resume</a>
+            <a href='https://drive.google.com/file/d/1pU4LVaVi_kcAc-UBSJU1RlJCUt9CS_L5/view?usp=sharing' target="_blank" className={props.resume ? 'resumeSm' : 'resume'}>Resume</a>
         </>
     );
 }
