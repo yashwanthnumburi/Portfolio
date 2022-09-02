@@ -1,18 +1,12 @@
-import Coursera from '../../assets/coursera.png';
-import HackerRank from '../../assets/HackerRank.png';
-import Linkedin from '../../assets/linkedin.jpg';
-import MongoDB from '../../assets/mongoDb.png';
-import Infosys from '../../assets/infosys.png'
-
 import ToolTip from '../shared/ToolTip/Tooltip';
 import { useRef, useEffect, useState } from 'react';
 
 const images = {
-    'Coursera': Coursera,
-    'HackerRank': HackerRank,
-    'Linkedin': Linkedin,
-    'MongoDB': MongoDB,
-    'Infosys': Infosys
+    'Coursera': 'https://drive.google.com/uc?export=view&id=1GVsbj_4jUdp8cxjBNPHPHJrSeXfA8MVs',
+    'HackerRank': 'https://drive.google.com/uc?export=view&id=1J1vIxwFn9zPMgA1ziobq_lX6R3FeQKoi',
+    'Linkedin': 'https://drive.google.com/uc?export=view&id=1P2g8Si6dSxfBfiTYV4lFr2vD5p6QuRxI',
+    'MongoDB': 'https://drive.google.com/uc?export=view&id=1kCPigCh0C5Zlr-zcoevJmFn3vuYwoix8',
+    'Infosys': 'https://drive.google.com/uc?export=view&id=1RqWKOVr142ZYU4mLfWbH8fYVud6dbZ1O'
 }
 
 export default function Card({ card }) {
